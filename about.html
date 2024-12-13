@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale="1.0">
+        <title>
+            All products-Royal store
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/log.png" width="125px"> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                    </ul>
+                    </nav>
+                    <a href="Cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        </div>
+        </div>
+  
+          <!-----=Content======-->
+    <div class="about-container">
+        <h1>About Us</h1>
+        <p>At MoonSpirit, we're passionate about empowering athletes and fitness enthusiasts to achieve their best performance. Born from a love for sports and an unwavering commitment to quality, our mission is to provide you with top-notch athletic gear that combines style, comfort, and durability.
+
+            We understand that every athlete's journey is unique, which is why we carefully curate our products to suit all levels of activity—from beginners to professionals. Whether you're hitting the gym, running your first marathon, or mastering the art of yoga, our gear is designed to support you every step of the way.
+            
+            Our team is driven by innovation and a deep understanding of what it takes to succeed in the world of sports. We believe that with the right tools, anyone can unlock their full potential. That's why we’re dedicated to delivering products that not only meet but exceed your expectations.
+            
+            Join us in our pursuit of excellence, and let's make every workout count. At [Your Brand Name], it's not just about the gear—it's about the journey.</p>
+    </div>
+
+
+
+<!---------footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>download app for android and ios mobile phones.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/log.png">
+                <p>Our purpose is to sustainably offer high-quality products that support athletes in achieving their best performance. .</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+        <ul>
+            <li>Coupons</li>
+            <li>Blog post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+        </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">
+        copyright Shashi 2024</p>
+    </div>
+</div>
+<!-------js for toggle menu------->
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+ 
+
+</body>
+</html>
